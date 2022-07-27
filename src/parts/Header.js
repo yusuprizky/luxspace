@@ -8,7 +8,7 @@ export default function Header() {
         <div className="flex flex-stretch items-center">
           <div className="w-56 items-center flex">
             <img
-              src="images/content/logo.png"
+              src="/images/content/logo.png"
               alt="Luxspace | Fulfill your house with beautiful furniture"
             />
           </div>

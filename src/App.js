@@ -1,6 +1,7 @@
 import "assets/css/app.css";
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import HomePage from "pages/HomePage";
+import Details from "pages/Details";
 
 
 
@@ -8,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <HomePage />
+        <Route path="/" component={HomePage} />
+        
       </Router>
     </div>
   );
