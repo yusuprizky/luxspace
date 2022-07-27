@@ -44,7 +44,7 @@ export default function Hero() {
           <img
             src="images/content/image-section-1.png"
             alt="hero 1"
-            class="absolute inset-0 md:relative w-full h-full object-cover object-center"
+            className="absolute inset-0 md:relative w-full h-full object-cover object-center"
           />
         </div>
       </div>
