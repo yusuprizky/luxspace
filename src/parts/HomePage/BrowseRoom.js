@@ -50,7 +50,7 @@ function Loading({ ratio = {} }) {
 }
 
 export default function BrowseRoom() {
-  const {data, status, error, run, isLoading} = useAsync({data: {}});
+  const {data, run, isLoading} = useAsync({data: []});
   useEffect(() => {
     run (
       fetch({url: "/api/categories/?page=1&limit=4"})

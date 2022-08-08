@@ -66,7 +66,7 @@ export default function Carousel({children, refContainer}) {
   const onDragMove = useCallback((e) => {
       e = e || window.event;
       e.preventDefault();
-      console.log(e)
+      // console.log(e)
     
 
       if (e.type === "touchmove") {
